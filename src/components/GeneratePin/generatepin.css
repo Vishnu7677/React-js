@@ -1,0 +1,38 @@
+/* Generatepi.css starts */
+
+.generate_pin h3{
+    color: #140a05;
+    font-family: Poppins ;
+}
+.generate_pin .card{
+    border: none;
+    background-color: #f8f9f3;
+    font-family: Poppins;
+}
+.genrate_pin_buttons{
+    border: 1px solid lightgray;
+    background-color: transparent;
+    color: #0a22aa;
+    padding: 5px 10px;
+
+}
+.genrate_pin_submits{
+    border: none;
+    color: whitesmoke;
+    background-color: #0a22aa;
+    padding: 5px 10px;
+}
+
+.card_details_generate_pin_heading{
+    background-color:  #c1d6e7;
+}
+.card_details_generate_pin_notes{
+    font-size: 13px;
+}
+
+.card_details_generate_pin_input_tag .form-control:focus{
+    box-shadow: none;
+    border: 1px solid rgb(172, 169, 169);
+}
+
+/* Generatepi.css ends */

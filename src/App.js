@@ -1,23 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { Routes, Route } from 'react-router-dom';
+import RegisteredBillers from './project/RegisteredBillers';
+import ConvertToEMI from './project/ConvertToEmi';
+import CovertToEMISubmitButton from './project/ConvertToEmiSubmit';
+import AutoDebitInstructions from './project/AutoDebitInstructions';
+
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Routes>
+        <Route exact path="/" element={<RegisteredBillers />} />
+        <Route exact path="/emi" element={<ConvertToEMI />} />
+        <Route exact path="/submit" element={<CovertToEMISubmitButton />} />
+        <Route exact path="/autodebit" element={<AutoDebitInstructions />} />
+
+      </Routes>
     </div>
   );
 }

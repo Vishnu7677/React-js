@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+*{
+    font-family: Poppins;
+}
+
+/* Registeredbillers.css starts */
+
+
+.registered_billers_card{
+    border: none;
+}
+
+.registered_billers_heading{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.registered_billers_items{
+    padding-top: 25px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(243, 238, 238);
+    background-color: rgb(212, 206, 206);
+    color: #0c0404;
+}
+
+.registered_biller_item{
+    padding : 10px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(243, 238, 238);
+    background-color: rgb(212, 206, 206);
+    color: #0c0404;
+}
+
+.registered_billers_card h3{
+    color: rgb(144, 44, 226);
+}
+
+.registered_billers_card p{
+    font-weight: 500;
+}
+
+.registered_billers_coloumn{
+  padding-top: 15px;
+   text-align: center;
+   align-items:center;
+   justify-content:center;
+   border: 1px solid rgb(241, 231, 231);
+}
+
+.registered_biller_col{
+    padding: 6px;
+   text-align: center;
+   align-items:center;
+   justify-content:center;
+   border: 1px solid rgb(241, 231, 231);
+}
+
+.registered_billers_buttons_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(245, 240, 240);
+    padding: 15px;
+}
+.registered_billers_download_button{
+    border: none;
+}
+.registered_billers_biller_button{
+    border: none;
+    cursor: pointer;
+    background: none ;
+}
+.registered_billers_biller_download{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.registered_billers_select_tag{
+    width: 350px;
+}
+.registered_billers_ok_buttton{
+    border: none;
+    padding: 5px 10px;
+    background-color: rgb(90, 125, 179);
+    color: white;
+    border-radius: 5px;
+}
+
+/* Registeredbillers.css ends */
+
+
+/* ConvertToEmi.css starts */
+
+
+.convert_to_emi_card h3{
+    color: rgb(144, 44, 226);
+}
+
+
+.convert_to_emi_button{
+    border: none;
+    padding: 5px 10px;
+    background-color: rgb(90, 125, 179);
+    color: white;
+    border-radius: 5px;
+}
+
+.convert_to_emi_row{
+    text-align: justify;
+    align-items: center;
+}
+
+/* ConvertToEmi.css ends */
+
+
+/* ConvertToEmiSubmit.css starts */
+
+.convert_to_emi_submit_button h3{
+    color: rgb(144, 44, 226);
+}
+
+.convert_to_emi_submit_button .card{
+    border: none;
+}
+
+.convert_to_emi_items{
+    padding-top: 25px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(243, 238, 238);
+    background-color: rgb(212, 206, 206);
+    color: #0c0404;
+}
+
+.convert_to_emi_ref{
+    padding : 10px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(243, 238, 238);
+    background-color: rgb(212, 206, 206);
+    color: #0c0404;
+}
+
+.convert_to_emi_coloumn{
+    padding-top : 15px;
+    text-align: center;
+    align-items:center;
+    justify-content:center;
+    border: 1px solid rgb(241, 231, 231);
+}
+
+.convert_to_emi_date{
+    padding: 1px;
+    padding-top:15px;
+    text-align: center;
+    align-items:center;
+    justify-content:center;
+    border: 1px solid rgb(241, 231, 231);
+}
+
+.convert_to_emi_faqs{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+
+
+
+.convert_to_emi_button{
+    border: none;
+    padding: 5px 10px;
+    background-color: rgb(90, 125, 179);
+    color: white;
+    border-radius: 5px;
+}
+
+
+/* ConvertToEmiSubmit.css ends */
+
+
+
+/* AutoDebitInstructions.css starts */
+
+.auto_debit_instructions h3{
+    color: rgb(144, 44, 226);
+}
+
+
+.auto_debit_instructions_card{
+    border: none;
+    background-color: rgb(243, 236, 236);
+}
+
+.auto_debit_buttons{
+    border: none;
+    padding: 5px 10px;
+    background-color: rgb(90, 125, 179);
+    color: white;
+    border-radius: 5px;
+}
+
+.auto_debit_instructions_card .auto_debit_instructions_select:focus{
+    outline: none !important;
+  border: none !important;
+}   
+/* AutoDebitInstructions.css ends */
+

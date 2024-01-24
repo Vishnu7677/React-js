@@ -1,0 +1,71 @@
+/* ATMDetails.css starts */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+*{
+    font-family: Poppins;
+}
+
+.atm_card_details_heading{
+    background-color: #f1f5f8;
+    padding: 5px 10px;
+    font-family: poppins;
+}
+.atm_card_details {
+    width: auto;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+
+}
+.atm_card_details_debit_card{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f1f5f8;
+    font-family: poppins;
+}
+
+.atm_card_details_button_container {
+    margin: 10px 0;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.atm_card_details_button {
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    color: #4d0aeb;
+    background: none;
+    font-family: Poppins ;
+    padding-left: 5px;
+}
+.atm_card_details_button_upgrade{
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    color: #efedf3;
+    background: rgb(42, 56, 139);
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.atm_card_details_para_upgrade{
+    display: inline-block;
+    text-align: center;
+    margin: 0;
+    
+}
+
+.atm_card_details_logo{
+    font-size: 30px;
+}
+
+
+/* ATMDetails.css ends */
+
+
